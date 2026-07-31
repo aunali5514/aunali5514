@@ -2,7 +2,7 @@
 <h3 align="center">Data Science Student · Full-Stack Builder · UET Lahore</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/aunali514"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
 </p>
 
 ---
@@ -20,9 +20,7 @@
 
 **[CogniCareer](https://github.com/aunali5514/CogniCareer)** — Full-stack career intelligence platform
 `ASP.NET Core` `C#` `SQL Server` `T-SQL`
-A weighted skill-matching engine with a multi-provider AI fallback chain (Gemini → Groq → OpenRouter), a 12-table normalized database, and role-based portals for students, companies, and admins. I owned the Intelligence & AI backend — match scoring, AI chat, and dashboard analytics. Live at [cognicareer.somee.com](https://cognicareer.somee.com).
-
-*More projects (GridGuard hardware traffic system, Employee Tracking System, personal portfolio) coming soon as I push them up.*
+A weighted skill-matching engine with a multi-provider AI fallback chain (Gemini → Groq → OpenRouter), a 12-table normalized database, and role-based portals for students, companies, and admins. I owned the Intelligence & AI backend — match scoring, AI chat, and dashboard analytics. 
 
 ---
 
