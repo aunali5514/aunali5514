@@ -12,7 +12,7 @@
 - 🎓 Second-semester **Data Science** student at the Institute of Data Science, UET Lahore (Section B)
 - 🛠️ Co-Lead, **Team Admin Events** @ UET Science Society (2026–27 tenure)
 - 💡 I like building full-stack, data-driven systems — from career-matching platforms to hardware traffic controllers
-- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE)
+- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/aunali514)
 
 ---
 
