@@ -6,28 +6,11 @@
 
 <br/>
 
-```bash
-aun@portfolio:~$ boot
-🚀 Initializing Developer Environment...
-[██████████████████████████████████████] 100% [System Ready ✓]
+<div align="center">
 
-aun@portfolio:~$ whoami
-👋 Syed Aun Ali Rizvi
-🎓 BS Data Science @ UET Lahore — Semester 3 · CGPA 3.3/4.0
-📍 Lahore, Pakistan
+<img src="https://raw.githubusercontent.com/aunali5514/aunali5514/main/assets/terminal-boot.svg" alt="Terminal boot animation" width="700"/>
 
-aun@portfolio:~$ current_status
-🛠️  Co-Lead, Team Admin Events @ UET Science Society
-🧠 Building full-stack systems across Python, C#, and SQL
-📡 Open to internships & collaborations
-
-aun@portfolio:~$ motto
-📚 Learn.  🛠️ Build.  📈 Improve.  🔁 Repeat.
-
-aun@portfolio:~$ connect
-💬 Let's build something amazing together!
-🟢 STATUS: ONLINE
-```
+</div>
 
 <br/>
 
