@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" width="700" height="480">
+<defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="700" height="480" fill="#0D1117"/>
+  <line x1="60" y1="30" x2="60" y2="450" stroke="#161B22" stroke-width="2"/>
+  <line x1="60" y1="30" x2="60" y2="30" stroke="#00F5FF" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="y2" from="30" to="450" dur="2.5s" begin="0.3s" fill="freeze"/>
+  </line>
+  <circle cx="60" cy="55" r="7" fill="#0D1117" stroke="#00F5FF" stroke-width="2" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" begin="0.50s" dur="0.3s" from="0" to="1" fill="freeze"/>
+  </circle>
+  <text x="84" y="61" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" begin="0.50s" dur="0.3s" from="0" to="1" fill="freeze"/>
+    2024
+  </text>
+  <text x="84" y="89" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="0.85s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; Started Programming
+  </text>
+  <circle cx="60" cy="131" r="7" fill="#0D1117" stroke="#00F5FF" stroke-width="2" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" begin="1.30s" dur="0.3s" from="0" to="1" fill="freeze"/>
+  </circle>
+  <text x="84" y="137" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" begin="1.30s" dur="0.3s" from="0" to="1" fill="freeze"/>
+    2025
+  </text>
+  <text x="84" y="165" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="1.65s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; Python
+  </text>
+  <text x="84" y="189" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="1.90s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; Power BI
+  </text>
+  <text x="84" y="213" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="2.15s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; Data Science
+  </text>
+  <text x="84" y="237" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="2.40s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; Open Source
+  </text>
+  <text x="84" y="261" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="2.65s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; AI Projects
+  </text>
+  <circle cx="60" cy="303" r="7" fill="#0D1117" stroke="#00F5FF" stroke-width="2" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" begin="3.10s" dur="0.3s" from="0" to="1" fill="freeze"/>
+  </circle>
+  <text x="84" y="309" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" begin="3.10s" dur="0.3s" from="0" to="1" fill="freeze"/>
+    2026
+  </text>
+  <text x="84" y="337" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="3.45s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; Azure
+  </text>
+  <text x="84" y="361" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="3.70s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; .NET
+  </text>
+  <text x="84" y="385" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="3.95s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; Machine Learning
+  </text>
+  <text x="84" y="409" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="4.20s" dur="0.25s" from="0" to="1" fill="freeze"/>
+    &gt; CogniCareer
+  </text>
+</svg>

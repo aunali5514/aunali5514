@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" width="700" height="420">
+<defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#0D1117"/>
+  <rect x="15" y="15" width="670" height="120" rx="8" fill="#161B22" opacity="0.35" stroke="#00F5FF" stroke-width="1"/>
+  <text x="34" y="43" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8B98A9" letter-spacing="2">MODULE 01</text>
+  <text x="34" y="67" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#FFFFFF">CogniCareer</text>
+  <text x="666" y="43" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#00FF88">LIVE</text>
+  <text x="34" y="90" font-family="Consolas, Menlo, monospace" font-size="11" fill="#6EE7FF">ASP.NET Core . Azure . SQL Server . AI</text>
+  <rect x="34" y="105" width="632" height="8" fill="none" stroke="#161B22" stroke-width="1"/>
+  <rect x="34" y="105" width="632" height="8" fill="#00FF88"/>
+  <text x="666" y="122" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="10" fill="#8B98A9">100%</text>
+  <rect x="15" y="150" width="670" height="120" rx="8" fill="#161B22" opacity="0.35" stroke="#00F5FF" stroke-width="1"/>
+  <text x="34" y="178" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8B98A9" letter-spacing="2">MODULE 02</text>
+  <text x="34" y="202" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#FFFFFF">Employee Tracking System</text>
+  <text x="666" y="178" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#6EE7FF">COMPLETE</text>
+  <text x="34" y="225" font-family="Consolas, Menlo, monospace" font-size="11" fill="#6EE7FF">Python . File-Based Persistence</text>
+  <rect x="34" y="240" width="632" height="8" fill="none" stroke="#161B22" stroke-width="1"/>
+  <rect x="34" y="240" width="632" height="8" fill="#6EE7FF"/>
+  <text x="666" y="257" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="10" fill="#8B98A9">100%</text>
+  <rect x="15" y="285" width="670" height="120" rx="8" fill="#161B22" opacity="0.35" stroke="#00F5FF" stroke-width="1"/>
+  <text x="34" y="313" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8B98A9" letter-spacing="2">MODULE 03</text>
+  <text x="34" y="337" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#FFFFFF">Portfolio</text>
+  <text x="666" y="313" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#F0A730">BUILDING</text>
+  <text x="34" y="360" font-family="Consolas, Menlo, monospace" font-size="11" fill="#6EE7FF">HTML . CSS . JavaScript</text>
+  <rect x="34" y="375" width="632" height="8" fill="none" stroke="#161B22" stroke-width="1"/>
+  <rect x="34" y="375" width="537" height="8" fill="#F0A730"/>
+  <text x="666" y="392" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="10" fill="#8B98A9">85%</text>
+</svg>

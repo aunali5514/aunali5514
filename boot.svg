@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" width="700" height="460">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1" height="1" opacity="0">
+    <animate id="loopClock" attributeName="opacity" from="0" to="0" dur="13.0s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="0" y="0" width="700" height="460" fill="#0D1117"/>
+  <rect x="10" y="10" width="680" height="440" fill="none" stroke="#00F5FF" stroke-width="1.2" filter="url(#glow)" opacity="0.55"/>
+  <rect x="10" y="10" width="680" height="440" fill="none" stroke="#161B22" stroke-width="1"/>
+  <text x="30" y="90" font-family="Consolas, Menlo, monospace" font-size="20" font-weight="700" fill="#00F5FF" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+0.30s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+    BOOTING AI PROFILE...
+  </text>
+  <text x="30" y="130" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+1.00s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+    > Checking System...
+  </text>
+  <text x="30" y="154" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+1.60s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Memory ............. OK
+  </text>
+  <text x="30" y="176" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+2.10s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      GPU ................ OK
+  </text>
+  <text x="30" y="198" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+2.60s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Network ............ Connected
+  </text>
+  <text x="30" y="224" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#6EE7FF" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+3.20s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+    > Loading Modules...
+  </text>
+  <text x="60" y="246" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="400" fill="#B8C2D0" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+3.60s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      AI
+  </text>
+  <text x="60" y="266" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="400" fill="#B8C2D0" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+4.02s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Machine Learning
+  </text>
+  <text x="60" y="286" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="400" fill="#B8C2D0" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+4.44s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Data Science
+  </text>
+  <text x="60" y="306" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="400" fill="#B8C2D0" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+4.86s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      .NET
+  </text>
+  <text x="60" y="326" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="400" fill="#B8C2D0" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+5.28s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Azure
+  </text>
+  <text x="60" y="346" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="400" fill="#B8C2D0" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+5.70s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Python
+  </text>
+  <text x="60" y="366" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="400" fill="#B8C2D0" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+6.12s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Git
+  </text>
+  <rect x="60" y="396" width="400" height="10" fill="none" stroke="#161B22" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+3.40s" dur="0.2s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+  </rect>
+  <rect x="60" y="396" width="0" height="10" fill="#00FF88">
+    <animate attributeName="width" begin="loopClock.begin+3.40s" dur="3.0s" from="0" to="400" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+  </rect>
+  <text x="350.0" y="441" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="22" font-weight="700" fill="#FFFFFF" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" begin="loopClock.begin+8.04s" dur="0.3s" from="0" to="1" fill="freeze"/>
+    <animate attributeName="opacity" begin="loopClock.begin+11.0s" dur="0.4s" from="1" to="0" fill="freeze"/>
+    WELCOME, AUN ALI
+  </text>
+  <g visibility="hidden">
+    <animate attributeName="visibility" begin="loopClock.begin+8.44s" dur="0.01s" to="visible" fill="freeze"/>
+    <animate attributeName="visibility" begin="loopClock.begin+11.0s" dur="0.01s" to="hidden" fill="freeze"/>
+    <rect x="480.0" y="427" width="10" height="16" fill="#00F5FF">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

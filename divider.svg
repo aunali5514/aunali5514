@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 60" width="700" height="60">
+<defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="700" height="60" fill="#0D1117"/>
+  <line x1="0" y1="30.0" x2="700" y2="30.0" stroke="#161B22" stroke-width="1"/>
+  <rect x="0" y="29.0" width="120" height="2" fill="#00F5FF" filter="url(#glow)" opacity="0.9">
+    <animate attributeName="x" values="0;580;0" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="240.0" y="17.0" width="220" height="26" fill="#0D1117"/>
+  <text x="350.0" y="35.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#6EE7FF" letter-spacing="2">SYSTEM MODULE LOADED</text>
+</svg>
