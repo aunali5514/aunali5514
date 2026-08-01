@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" width="700" height="500">
+  <defs>
+    <clipPath id="roundedWindow"><rect x="0" y="0" width="700" height="500" rx="12" ry="12"/></clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="1" height="1" opacity="0">
+    <animate id="loopClock" attributeName="opacity" from="0" to="0" dur="19s" repeatCount="indefinite"/>
+  </rect>
+
+  <g clip-path="url(#roundedWindow)">
+    <rect x="0" y="0" width="700" height="500" fill="#0A1628"/>
+    <rect x="0" y="0" width="700" height="40" fill="#10203A"/>
+    <circle cx="24" cy="20" r="6" fill="#ff5f56"/>
+    <circle cx="44" cy="20" r="6" fill="#ffbd2e"/>
+    <circle cx="64" cy="20" r="6" fill="#27c93f"/>
+    <text x="350.0" y="25" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#8496B0">aun@portfolio: ~/profile</text>
+    <text x="24" y="70" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#2DD4BF" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+0.6s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      aun@portfolio:~$ boot
+    </text>
+    <text x="24" y="96" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+1.45s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Initializing Developer Environment...
+    </text>
+    <text x="24" y="122" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+2.3s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      [################################] 100% [System Ready]
+    </text>
+    <text x="24" y="148" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#2DD4BF" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+3.15s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      aun@portfolio:~$ whoami
+    </text>
+    <text x="24" y="174" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+4.0s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Syed Aun Ali Rizvi
+    </text>
+    <text x="24" y="200" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+4.85s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      BS Data Science @ UET Lahore - Semester 3 - CGPA 3.3/4.0
+    </text>
+    <text x="24" y="226" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+5.7s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Lahore, Pakistan
+    </text>
+    <text x="24" y="252" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#2DD4BF" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+6.55s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      aun@portfolio:~$ current_status
+    </text>
+    <text x="24" y="278" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+7.4s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Co-Lead, Team Admin Events @ UET Science Society
+    </text>
+    <text x="24" y="304" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+8.25s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Building full-stack systems across Python, C#, and SQL
+    </text>
+    <text x="24" y="330" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+9.1s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Open to internships &amp; collaborations
+    </text>
+    <text x="24" y="356" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#2DD4BF" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+9.95s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      aun@portfolio:~$ motto
+    </text>
+    <text x="24" y="382" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+10.8s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Learn.  Build.  Improve.  Repeat.
+    </text>
+    <text x="24" y="408" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#2DD4BF" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+11.65s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      aun@portfolio:~$ connect
+    </text>
+    <text x="24" y="434" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+12.5s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      Let's build something amazing together!
+    </text>
+    <text x="24" y="460" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#E7ECF3" opacity="0">
+      <animate attributeName="opacity" begin="loopClock.begin+13.35s" dur="0.25s" from="0" to="1" fill="freeze"/>
+      <animate attributeName="opacity" begin="loopClock.begin+16.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+      STATUS: ONLINE
+    </text>
+    <g visibility="hidden">
+      <animate attributeName="visibility" begin="loopClock.begin+13.65s" dur="0.01s" to="visible" fill="freeze"/>
+      <animate attributeName="visibility" begin="loopClock.begin+16.5s" dur="0.01s" to="hidden" fill="freeze"/>
+      <rect x="24" y="474" width="9" height="14" fill="#F0A730">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
