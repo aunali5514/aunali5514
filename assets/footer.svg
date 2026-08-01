@@ -5,37 +5,26 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="0" y="0" width="1" height="1" opacity="0">
-    <animate id="loopClock" attributeName="opacity" from="0" to="0" dur="8.0s" repeatCount="indefinite"/>
-  </rect>
   <rect x="0" y="0" width="700" height="220" fill="#0D1117"/>
   <line x1="30" y1="30" x2="670" y2="30" stroke="#161B22" stroke-width="1"/>
   <text x="350.0" y="70" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="17" font-weight="700" fill="#00FF88" opacity="0">
-    <animate attributeName="opacity" begin="loopClock.begin+0.40s" dur="0.25s" from="0" to="1" fill="freeze"/>
-    <animate attributeName="opacity" begin="loopClock.begin+6.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05;0.075;0.8125;0.8625;1" dur="8.0s" repeatCount="indefinite"/>
     SESSION END
   </text>
   <text x="350.0" y="102" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#FFFFFF" opacity="0">
-    <animate attributeName="opacity" begin="loopClock.begin+1.30s" dur="0.25s" from="0" to="1" fill="freeze"/>
-    <animate attributeName="opacity" begin="loopClock.begin+6.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1625;0.1875;0.8125;0.8625;1" dur="8.0s" repeatCount="indefinite"/>
     Thanks for visiting.
   </text>
   <text x="350.0" y="134" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#FFFFFF" opacity="0">
-    <animate attributeName="opacity" begin="loopClock.begin+2.20s" dur="0.25s" from="0" to="1" fill="freeze"/>
-    <animate attributeName="opacity" begin="loopClock.begin+6.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.275;0.3;0.8125;0.8625;1" dur="8.0s" repeatCount="indefinite"/>
     See you again.
   </text>
   <text x="350.0" y="166" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="400" fill="#FFFFFF" opacity="0">
-    <animate attributeName="opacity" begin="loopClock.begin+3.10s" dur="0.25s" from="0" to="1" fill="freeze"/>
-    <animate attributeName="opacity" begin="loopClock.begin+6.5s" dur="0.4s" from="1" to="0" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3875;0.4125;0.8125;0.8625;1" dur="8.0s" repeatCount="indefinite"/>
     Logging Out...
   </text>
-  <g visibility="hidden">
-    <animate attributeName="visibility" begin="loopClock.begin+4.20s" dur="0.01s" to="visible" fill="freeze"/>
-    <animate attributeName="visibility" begin="loopClock.begin+6.5s" dur="0.01s" to="hidden" fill="freeze"/>
-    <rect x="344.0" y="184" width="10" height="16" fill="#00F5FF">
-      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
+  <rect x="344.0" y="184" width="10" height="16" fill="#00F5FF" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0.0;0.525;0.525;0.5875;0.65;0.7125;0.775;0.8125;1.0" dur="8.0s" repeatCount="indefinite"/>
+  </rect>
   <line x1="30" y1="190" x2="670" y2="190" stroke="#161B22" stroke-width="1"/>
 </svg>
