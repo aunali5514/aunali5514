@@ -74,6 +74,9 @@
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/aunali5514/aunali5514/main/assets/projects.svg" alt="Projects" width="700"/>
+
+[CogniCareer — Live](https://cognicareer-app.azurewebsites.net) · [CogniCareer — Source](https://github.com/aunali5514/CogniCareer) · [Employee Tracking System — Source](https://github.com/aunali5514/Employee-Tracking-System) · [Portfolio — Live](https://portfolio-nine-puce-49.vercel.app) · [Portfolio — Source](https://github.com/aunali5514/Portfolio)
+
 </div>
 
 <img src="https://raw.githubusercontent.com/aunali5514/aunali5514/main/assets/divider.svg" alt="" width="700"/>
@@ -96,6 +99,7 @@
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/-Portfolio-34D399?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-nine-puce-49.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aunali514)
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aunali5514@gmail.com)
 
